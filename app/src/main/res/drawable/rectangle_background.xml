@@ -1,0 +1,5 @@
+<!-- res/drawable/rectangle_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/holo_blue_light" /> <!-- 使用水藍色 -->
+    <corners android:radius="8dp" /> <!-- 設置圓角半徑，你可以根據需要調整這個值 -->
+</shape>
