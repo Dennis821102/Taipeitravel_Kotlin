@@ -14,6 +14,7 @@ import java.io.IOException
 class HttpGet {
     private val client = OkHttpClient()
 
+//test
     suspend fun getJson(url: String): String {
         return try {
             val request = Request.Builder()
