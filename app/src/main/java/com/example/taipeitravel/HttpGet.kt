@@ -18,6 +18,7 @@ class HttpGet {
 //2024120 05.13在增加 ---
 //ttt
 //tttt king
+//tttt king2
     suspend fun getJson(url: String): String {
         return try {
             val request = Request.Builder()
