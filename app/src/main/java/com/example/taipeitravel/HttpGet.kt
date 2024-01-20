@@ -15,6 +15,7 @@ class HttpGet {
     private val client = OkHttpClient()
 
 //test
+    //test2
     suspend fun getJson(url: String): String {
         return try {
             val request = Request.Builder()
